@@ -1,0 +1,19 @@
+Get user input for the starting value of investments
+Get user input for the initial yearly withdrawal amount
+Get user input for the minimum, most likely, and maximum duration of retirement
+Get user input on number of cases to run
+Start list to hold outcomes
+Loop through cases:
+For each case:
+Extract random contiguous sample of returns list for duration period Extract same interval from inflation list
+For each year in sample:
+If year not equal to year 1:
+Adjust withdrawal for inflation
+Subtract withdrawal from investments Adjust investments for returns
+If investments <= 0:
+Investments = 0
+Break
+Append investments value to outcomes list
+Display input parameters
+Calculate and display the probability of ruin Calculate and display statistics
+Display a subset of outcomes as a bar chart
