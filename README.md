@@ -1,4 +1,4 @@
-# Monte_Carlo_Analysis_PortfOptimisation
+# Monte Carlo Analysis Portfolio Optimisation
 
 # Introduction
 In this notebook, you will build a deep a Monte Carlo simulation that functions  a method for modeling the probability of different outcomes from a range of random inputs
